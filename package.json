@@ -1,5 +1,5 @@
 {
-  "name": "danger-plugin-jest",
+  "name": "@operational/danger-plugin-jest",
   "version": "0.0.0-development",
   "description": "Danger plugin for Jest",
   "main": "dist/index.js",

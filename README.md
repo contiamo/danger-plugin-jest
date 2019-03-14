@@ -1,6 +1,6 @@
 # danger-plugin-jest
 
-[![Build Status](https://travis-ci.org/macklinu/danger-plugin-jest.svg?branch=master)](https://travis-ci.org/macklinu/danger-plugin-jest)
+[![Build Status](https://travis-ci.org/contiamo/danger-plugin-jest.svg?branch=master)](https://travis-ci.org/contiamo/danger-plugin-jest)
 [![npm version](https://badge.fury.io/js/danger-plugin-jest.svg)](https://badge.fury.io/js/danger-plugin-jest)
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
 
@@ -22,7 +22,7 @@ like normal, but will also create a file with the full test results after.
 Install this Danger plugin:
 
 ```sh
-yarn add danger-plugin-jest --dev
+yarn add @operational/danger-plugin-jest --dev
 ```
 
 By default, this package will assume you've set the filename as `test-results.json`, but you can use any path.
@@ -30,7 +30,7 @@ By default, this package will assume you've set the filename as `test-results.js
 ```js
 // dangerfile.js
 import path from "path";
-import jest from "danger-plugin-jest";
+import jest from "@operational/danger-plugin-jest";
 
 // Default
 jest();
@@ -38,11 +38,11 @@ jest();
 jest({ testResultsJsonPath: path.resolve(__dirname, "tests/results.json") });
 ```
 
-See [`src/index.ts`](https://github.com/macklinu/danger-plugin-jest/blob/master/src/index.ts) for more details.
+See [`src/index.ts`](https://github.com/contiamo/danger-plugin-jest/blob/master/src/index.ts) for more details.
 
 ## Changelog
 
-See the GitHub [release history](https://github.com/macklinu/danger-plugin-jest/releases).
+See the GitHub [release history](https://github.com/contiamo/danger-plugin-jest/releases).
 
 ## Development
 
